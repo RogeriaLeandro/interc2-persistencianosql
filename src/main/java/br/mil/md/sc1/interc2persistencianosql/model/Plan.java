@@ -1,6 +1,7 @@
 package br.mil.md.sc1.interc2persistencianosql.model;
 
 import lombok.*;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
@@ -17,6 +18,7 @@ public class Plan {
 
   private Extension extension;
 
+  @Id
   private String uri;
 
   private String source;
