@@ -1,0 +1,4 @@
+* Entendo que os dados q viram do roteamento para o persistência já estarão tratados (NotNull ou Blank).
+  Faz-se necessário verificar NotNull ou Blank no persistência?
+
+*
